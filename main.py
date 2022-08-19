@@ -33,7 +33,7 @@ if(__name__ == '__main__'):
     loaded_model = load_model("./structured_data_regressor/best_model", 
                               custom_objects=ak.CUSTOM_OBJECTS)
     
-    # Let's apply the best model on all database
+    # Let's apply the model to the entire database
     x_test = data.iloc[[0], :-1] 
     x_test = data.iloc[:, :-1] 
     yp = loaded_model.predict(x_test)
