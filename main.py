@@ -8,7 +8,7 @@ import matplotlib.pyplot       as plt
 
 if(__name__ == '__main__'):
             
-    # Creating any dataset that has a pattern.
+    # Creating any dataset that has a pattern..
     n = 1000
     x1 = np.linspace(0, 100, n)
     x2 = np.linspace(25, 75, n)
